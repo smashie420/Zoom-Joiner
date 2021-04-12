@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-release-builds/
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -88,3 +87,6 @@ typings/
 
 # Electron-Forge
 out/
+
+release-builds/Zoom-Auto-Joiner-win32-ia32
+release-builds/Zoom Joiner.lnk
