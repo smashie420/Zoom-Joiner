@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+body{
+  background-color: #3a4047;
+}
+nav{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #567ac4;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav img{
+  width: 400px;
+  height: auto;
+}
+.nav .addClass{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;  
+}
+.nav .addClass input{
+
+  margin: 25px;
+  width: 200px;
+  height: 25px;
+}
+.nav .addClass button{
+
+  margin: 25px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.nav .addClass button span{
+
+  color:white;
+}
+.nav .addClass button:hover{
+  background-color: rgba(0, 255, 0, 0.2);
+}
+.nav .addClass button:active{
+  background-color: #3a4047;
+}
+
+
+
+
+.app{
+  display: grid;
+  grid-template-columns: 0.1fr 1.9fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+    position: relative;
+  
+}
+
+.classess{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+  background-color: #202225;
+  width: 100px;
+  height: 100vh;
+  position: sticky;
+  overflow-y: scroll; 
+  white-space:nowrap;
+}
+.classess::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+.classess::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+.classess::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  
+}
+
+.classess .circle{
+  border-radius: 50%;
+  background-color: white;
+  width: 75px;
+  height: 75px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:15px;
+}
+.classess .circle:last-child{
+  margin-bottom: 230px;
+}
+
+.classess .circle h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.classess .circle small{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.settings{
+  margin: 0 15%;
+}
+.classSetting{
+  margin-top: 100px;
+}
+.classSettingTitle{
+  padding: 25px;
+  background-color: #36393f;
+  color: white;
+  border-radius: 15% 15% 0% 0%;
+  border-bottom: 2px solid #292c2f;
+  
+}
+.classSettingTitle h1{
+  text-transform: uppercase;
+}
+.classSettingTitle h2{
+  color:#7c7f82;
+}
+.classSettingOptions{
+  color: white;
+  background: #36393f;
+  padding: 25px;
+}
+.settingFooter{
+  padding: 25px;
+  background: #2f3136;
+  display: flex;
+  justify-content: space-between;
+}
+.options{
+  margin-bottom: 25px;
+}
+.options input{
+  width: 100%;
+}
+
+.weekDays-selector {
+  display: flex;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #36393f;
+  height: 40px;
+  width: 30px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: #2AD705;
+  color: #ffffff;
+}
+
+
+
+
+
+
+.hidden{
+  display: none;
+}
+
+
+
+.delete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  color: white;
+}
+.delete:hover{
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.delete:active{
+  background-color: #3a4047;
+}
+
+
+.checkmark button{
+  background: transparent;
+  border: none;
+}
+.checkmark button span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  color: white;
+}
+.checkmark:hover{
+  background-color: #567ac4;
+}
+.checkmark:active{
+  background-color: #3a4047;
+  
+}
+
+footer{
+  background:#567ac4;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+footer div{
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div h2 a{
+  color: #c9cacf;
+  text-decoration: none;
+}
