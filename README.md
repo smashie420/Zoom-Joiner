@@ -4,9 +4,9 @@
   </p>
   
   <p>
-    <img src="https://img.shields.io/github/stars/smashie420/Zoom-Auto-Joiner?style=for-the-badge">
-    <img src="https://img.shields.io/github/license/smashie420/Zoom-Auto-Joiner?style=for-the-badge">
-    <img src="https://img.shields.io/bitbucket/issues-raw/smashie420/Zoom-Auto-Joiner?style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/smashie420/Zoom-Joiner?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/smashie420/Zoom-Joiner?style=for-the-badge">
+    <img src="https://img.shields.io/bitbucket/issues-raw/smashie420/Zoom-Joiner?style=for-the-badge">
     
   </p>
   <p style="text-align: center;">
