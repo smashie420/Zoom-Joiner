@@ -11,7 +11,6 @@
   </p>
   <p style="text-align: center;">
     <h2>A program that runs in the background that automaticlly joins said zoom link</h2>
-    
     <h2><a href="https://github.com/smashie420/Zoom-Joiner/releases/tag/V1">Download</a></h2>
     
   </p>
